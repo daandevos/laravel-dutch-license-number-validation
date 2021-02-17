@@ -1,0 +1,30 @@
+{
+  "name": "daandevos/laravel-dutch-license-number-validation",
+  "description": "Validate a Dutch license plate number",
+  "keywords": ["laravel", "dutch", "license", "number", "daandevos", "validation"],
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/support": "~6.0|~7.0|~8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeVos\\Laravel\\Validation\\LicenseNumber\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daan de Vos",
+      "email": "daan@devos.id"
+    }
+  ],
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DeVos\\Laravel\\Validation\\LicenseNumber\\AppServiceProvider"
+      ]
+    }
+  }
+}
