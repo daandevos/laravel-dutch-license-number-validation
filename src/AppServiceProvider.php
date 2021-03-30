@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Validator::extendImplicit(
+        Validator::extend(
             'dutch_license_number',
             new Rules\DutchLicenseNumber,
             'The :attribute format is invalid.'
