@@ -5,7 +5,7 @@ namespace DeVos\Laravel\Validation\LicenseNumber\Rules;
 class DutchLicenseNumber
 {
     private const LICENSE_NUMBER_EXPRESSIONS = [
-        '[^0-9]{2}\d{2}\d{2}', // XX-99-99
+        '[A-2]{2}\d{2}\d{2}', // XX-99-99
         '\d{2}\d{2}[A-Z]{2}', // 99-99-XX
         '\d{2}[A-Z]{2}\d{2}', // 99-XX-99
         '[A-Z]{2}\d{2}[A-Z]{2}', // XX-99-XX
